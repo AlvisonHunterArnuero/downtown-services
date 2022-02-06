@@ -26,11 +26,11 @@ button {
 }
 
 body {
-  background: #f3f3f3;
+  background: #3d4b59;
 }
 
 a {
-  color: #016aba;
+  color: #1B4F72;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ p {
   padding: 10px 30px 10px;
   text-decoration: none;
   color: #fff;
-  background: #016aba;
+  background: #148F77;
   border-radius: 5px;
   border: none;
   font-size: 20px;
@@ -62,16 +62,19 @@ p {
 
 .button:hover {
   opacity: 1;
+  color: #f3f3fe;
+  background: #0B5345;
 }
 /**
  * Body Container
  */
 
 .container {
-  max-width: 1024px;
+  max-width: 1800px;
   min-height: 100vh;
-  background: #f9f9f9;
+  background: #F3F3F3;
   margin: 0 auto;
+  border: 1px solid #283747;
 }
 /**
  * Top Navigation
@@ -79,9 +82,7 @@ p {
 
 .menu {
   height: 4em;
-  background-color: #677ae4;
-  background-color: #05526A;
-  background-color: #e46855;
+  background-color: #283747;
 }
 
 .menu h1 {
@@ -132,7 +133,7 @@ p {
   font-size: 18px;
   width: 500px;
   margin: 20px auto 50px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: red;
   border: solid 1px lightgray;
   display: block;
 }
@@ -225,20 +226,22 @@ p {
 
 .rental {
   margin-top: 15px;
-  background-color: #f6f6f6;
+  background-color:#f2f2f2;
   padding: 20px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  color: #566573;
 }
 
 .rental:hover {
-  background-color: #f3f3f3;
+  background-color:#bbccdd;
 }
 
 .rental img {
   border-radius: 5px;
+  border: 1px solid #D5D8DC;
 }
 
 .rental .image {
@@ -246,6 +249,7 @@ p {
   flex-basis: 150px;
   margin: 20px 25px;
   text-align: center;
+  border: 14px solid red;
 }
 
 .rental button.image {

@@ -1,12 +1,16 @@
 <Jumbo>
-  <h2>Welcome to Downtown Services Jinotepe!</h2>
-  <p>We hope you find exactly what you're looking for in our Carazo Area.</p>
-<LinkTo @route="about" class="button">About Us</LinkTo>
+  <h2 class="text-secondary">Welcome to Downtown Services Jinotepe!</h2>
+  <p class="lead w-75">We hope you find exactly what you're looking for in our Carazo Area.
+    This site was built with the objective of provide visitors and friends
+    with some of the recommended places of this town. We don't receive any
+    payments from these establishments, we are simply sharing what we usually
+    visit when eating out, which happens to be, most of the weekends.</p>
+<LinkTo @route="about" class="button btn-lg btn btn-success">About Us</LinkTo>
 </Jumbo>
-<div class="rentals">
+<div class="rentals row">
   <ul class="results">
     {{#each @model as |service|}}
-      <li><Services @services={{service}} /></li>
+      <li><Service @service={{service}} /></li>
     {{/each}}
   </ul>
 </div>
