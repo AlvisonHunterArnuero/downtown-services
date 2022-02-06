@@ -1,0 +1,34 @@
+<article class='rental'>
+  <Services::Image src={{@services.image}} alt='A picture of {{@services.title}}' />
+  <div class='details'>
+        <h3>
+      <LinkTo @route="services" @model={{@services}}>
+        {{@services.title}}
+      </LinkTo>
+    </h3>
+    <div class='detail owner'>
+      <span>Owner:</span>
+      {{@services.owner}}
+    </div>
+    <div class='detail type'>
+      <span>Type:</span>
+      {{@services.type}}
+    </div>
+    <div class='detail location'>
+      <span>Location:</span>
+      {{@services.city}}
+    </div>
+    <div class='detail bedrooms'>
+      <span>Opens at:</span>
+      {{@services.bedrooms}}
+    </div>
+  </div>
+  <Map
+    @lat={{@services.location.lat}}
+    @lng={{@services.location.lng}}
+    @zoom='9'
+    @width='150'
+    @height='150'
+    alt='A map of {{@services.title}}'
+  />
+</article>

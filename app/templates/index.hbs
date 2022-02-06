@@ -1,0 +1,12 @@
+<Jumbo>
+  <h2>Welcome to Downtown Services Jinotepe!</h2>
+  <p>We hope you find exactly what you're looking for in our Carazo Area.</p>
+<LinkTo @route="about" class="button">About Us</LinkTo>
+</Jumbo>
+<div class="rentals">
+  <ul class="results">
+    {{#each @model as |service|}}
+      <li><Services @services={{service}} /></li>
+    {{/each}}
+  </ul>
+</div>

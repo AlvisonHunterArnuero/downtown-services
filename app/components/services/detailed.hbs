@@ -1,0 +1,44 @@
+<Jumbo>
+  <h2>{{@service.title}}</h2>
+  <p>Nice find! This looks like a nice place to stay near {{@service.city}}.</p>
+  <a href="#" target="_blank" rel="external nofollow noopener noreferrer" class="share button">
+    Share on Twitter
+  </a>
+</Jumbo>
+
+<article class="rental detailed">
+  <Services::Image
+    src={{@service.image}}
+    alt="A picture of {{@service.title}}"
+  />
+
+  <div class="details">
+    <h3>About {{@service.title}}</h3>
+
+    <div class="detail owner">
+      <span>Owner:</span> {{@service.owner}}
+    </div>
+    <div class="detail type">
+      <span>Type:</span> {{@service.type}} – {{@service.category}}
+    </div>
+    <div class="detail location">
+      <span>Location:</span> {{@service.city}}
+    </div>
+    <div class="detail bedrooms">
+      <span>Opens At:</span> {{@service.bedrooms}}
+    </div>
+    <div class="detail description">
+      <p>{{@service.description}}</p>
+    </div>
+  </div>
+
+  <Map
+    @lat={{@service.location.lat}}
+    @lng={{@service.location.lng}}
+    @zoom="12"
+    @width="894"
+    @height="600"
+    alt="A map of {{@service.title}}"
+    class="large"
+  />
+</article>
