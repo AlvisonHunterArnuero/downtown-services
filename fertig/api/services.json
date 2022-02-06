@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "type": "rentals",
+      "id": "solomillo-resto-art",
+      "attributes": {
+        "title": "Solomillo •Resto & Art",
+        "owner": "Lassy Potta",
+        "city": "San Francisco",
+        "location": {
+          "lat": 11.848693,
+          "lng": -86.2014003
+        },
+        "category": "Restaurant",
+        "bedrooms": "11am-10pm",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPx3xnmHEg1Svea0BmGDZXVBbKirEb-9UK61YqU=w408-h306-k-no",
+        "description": "This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests."
+      }
+    },
+
+    {
+      "type": "rentals",
+      "id": "grill-village",
+      "attributes": {
+        "title": "Grill Village",
+        "owner": "Sean Peepew",
+        "city": "Jinotepe",
+        "location": {
+          "lat": 11.8519602,
+          "lng": -86.199814
+        },
+        "category": "Restaurant",
+        "bedrooms": "11am-10pm",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipNgZiXa__tmGE277rFHgOZ15G_cRS83c4qMwY5h=w408-h544-k-no",
+        "description": "A commuters dream. This rental is within walking distance of 2 bus stops and the Metro."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "cafe-alicia",
+      "attributes": {
+        "title": "Café Alicia",
+        "owner": "All Lee Sia",
+        "city": "Jinotepe",
+        "location": {
+          "lat": 11.8507212,
+          "lng": -86.2023114
+        },
+        "category": "Restaurant",
+        "bedrooms": "11am-10pm",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMbgR2-FCIPyhmwcMPBOmzsoKqQXT3S5TcGw9fD=w408-h306-k-no",
+        "description": "A commuters dream. This rental is within walking distance of 2 bus stops and the Metro."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "mister-burger",
+      "attributes": {
+        "title": "Mr. Burger",
+        "owner": "Elsa Wang",
+        "city": "Jinotepe",
+        "location": {
+          "lat": 11.8506181,
+          "lng": -86.1995411
+        },
+        "category": "Restaurant",
+        "bedrooms": "11am-10pm",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPA_pCCkwNOJ9_4YxC-BXKhSxT5ccU42Nk15fRx=w408-h544-k-no",
+        "description": "A commuters dream. This rental is within walking distance of 2 bus stops and the Metro."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "the-ribs",
+      "attributes": {
+        "title": "The Ribs",
+        "owner": "Alberto Santiago Puerto",
+        "city": "Jinotepe",
+        "location": {
+          "lat": 11.8490543,
+          "lng": -86.2016286
+        },
+        "category": "Apartment",
+        "bedrooms": "1pm-10pm",
+        "image": "https://lh5.googleusercontent.com/p/AF1QipM6TKhz8GTdJvrhhsuVsJIUEBXRn7zAjwHal80g=w426-h240-k-no",
+        "description": "Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet."
+      }
+    }
+  ]
+}
